@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>actividad 2</title>
+    </head>
+    <body>
+        <form>
+            <label>
+                <p>Nombre: </p>
+                <input type="text" name="nombre">
+            </label>
+            <label>
+                <p>Apellido: </p>
+                <input type="text" name="Apellido">
+            </label>
+            <label>
+                <p>Edad: </p>
+                <input list="Edad" type="number" name="Edad">
+            </label>
+            <datalist id="Edad">
+                <option value="0-10"></option>
+                <option value="10-17"></option>
+                <option value="18-20"></option>
+                <option value="20-30"></option>
+                <option value="30++"></option>
+            </datalist>
+            <p><input type="checkbox" id="condiciones">
+            <label for="condiciones">Acepto los términos y condiciones</label></p>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
