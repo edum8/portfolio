@@ -1,0 +1,28 @@
+body{
+    background-color: #1b1b1b;
+}
+h1{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 100px;
+    letter-spacing: 2px;
+}
+button{
+    background-color: #1b1b1b;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
