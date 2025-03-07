@@ -51,51 +51,64 @@ p{
 }
 
 h2{
-    color: #000000;
+    color: white;
+    font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .button1{
-    background-color:#800020;
-    color: black;
+    background-color:#682587;
+    overflow: hidden;
+    color: white;
     font-size: medium;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: box-shadow 0.3 ease;
+    transition: all 0.5 ease;
     display: inline-block;
+    
 }
 .cont1{
     display: none;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 20px;
+    background-color: #a974c1;
+    margin-right: 80%;
+    border-radius: 5px;
+    transition: all 0.3s ease;
     
 }
 
 #toggle:checked +.button1 +.cont1 {
     display: block;
 }
+
+
 .button1:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button2{
-    background-color: #C2DFE3;
-    color: black;
+    background-color: #521b6b;
+    overflow: hidden;
+    color: white;
     font-size: medium;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding:10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: box-shadow 0.3 ease;
+    transition: all 0.3 ease;
     display: inline-block;
+
 }
 .button2:hover{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .cont2{
+    background-color: #a974c1;
+    color: white;
     display: none;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 72%;
     
 }
 
@@ -103,23 +116,25 @@ h2{
     display: block;
 }
 .button3{
-    background-color: #9DB4C0;
-    color: black;
+    background-color: #3d0954;
+    overflow: hidden;
+    color: white;
     font-size: medium;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding:10px 20px;
     cursor: pointer;
-    transition: box-shadow 0.3 ease;
+    transition: all 0.3 ease;
     display: inline-block;
+    border-radius: 5px;
 }
 .button3:hover{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .cont3{
+    background-color: #a974c1;
     display: none;
-    padding: 10px;
-    margin-top: 10px;
-    
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 83%;
 }
 
 #toggle3:checked +.button3 +.cont3 {
@@ -157,3 +172,184 @@ h2{
     display: block;
 }
 
+.button4{
+    background-color: #2f0a40;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button4:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.cont4{
+    background-color: #a974c1;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 78%;
+}
+
+#toggle4:checked +.button4 +.cont4 {
+    display: block;
+}
+
+.button5{
+    background-color: #0d0a40;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button5:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.cont5{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 83%;
+}
+
+#toggle5:checked +.button5 +.cont5 {
+    display: block;
+}
+
+.button6{
+    background-color: #100c57;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button6:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.cont6{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 77%;
+}
+
+#toggle6:checked +.button6 +.cont6 {
+    display: block;
+}
+
+.button7{
+    background-color: #110c6c;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button7:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.cont7{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 75%;
+}
+
+#toggle7:checked +.button7 +.cont7 {
+    display: block;
+}
+
+.button8{
+    background-color: #151078;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button8:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.cont8{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 77%;
+}
+
+#toggle8:checked +.button8 +.cont8 {
+    display: block;
+}
+
+.button9{
+    background-color: #1b158e;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button9:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.cont9{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 74%;
+}
+
+#toggle9:checked +.button9 +.cont9 {
+    display: block;
+}
+
+.button10{
+    background-color: #1c15a2;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button10:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.cont10{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 72%;
+}
+
+#toggle10:checked +.button10 +.cont10 {
+    display: block;
+}
