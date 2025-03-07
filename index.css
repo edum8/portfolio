@@ -353,3 +353,185 @@ h2{
 #toggle10:checked +.button10 +.cont10 {
     display: block;
 }
+
+.btton{
+    background-color: #1c15a2;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btton:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.con{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 78%;
+}
+
+#tggl:checked +.btton +.con {
+    display: block;
+}
+
+.btton1{
+    background-color: #0e0974;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btton1:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.con1{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 78%;
+}
+
+#tggl1:checked +.btton1 +.con1 {
+    display: block;
+}
+
+.btton2{
+    background-color: #0e076b;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btton2:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.con2{
+    background-color: #715df6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 84%;
+}
+
+#tggl2:checked +.btton2 +.con2 {
+    display: block;
+}
+
+.btton3{
+    background-color: #041b52;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btton3:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.con3{
+    background-color: #5d77f6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 82%;
+}
+
+#tggl3:checked +.btton3 +.con3 {
+    display: block;
+}
+
+.btton4{
+    background-color: #09235f;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btton4:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.con4{
+    background-color: #5d77f6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 84%;
+}
+
+#tggl4:checked +.btton4 +.con4 {
+    display: block;
+}
+
+.btton5{
+    background-color: #102d72;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btton5:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.con5{
+    background-color: #5d77f6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 79%;
+}
+
+#tggl5:checked +.btton5 +.con5 {
+    display: block;
+}
+
+.btton6{
+    background-color: #133584;
+    overflow: hidden;
+    color: white;
+    font-size: medium;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btton6:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.con6{
+    background-color: #5d77f6;
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 77%;
+}
+
+#tggl6:checked +.btton6 +.con6 {
+    display: block;
+}
